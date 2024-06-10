@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: leiko;
+  src: url(./assets/fonts/Leiko-Regular.otf);
+}
+
+body {
+  background-color: #221518;
+  font-family: leiko;
+}

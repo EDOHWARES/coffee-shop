@@ -1,0 +1,31 @@
+@font-face {
+    font-family: dancingScriptBold;
+    src: url(../../assets/fonts/DancingScript-Bold.ttf);
+}
+
+.hero-hd-txt {
+    font-family: dancingScriptBold;
+    text-shadow: 1px 1px 0 ;
+    color: #221518;
+    text-shadow: 
+    1px 1px 0 #DABB9E, 
+    -1px 1px 0 #DABB9E, 
+    1px -1px 0 #DABB9E, 
+    -1px -1px 0 #DABB9E,
+    1px 0 0 #DABB9E,
+    -1px 0 0 #DABB9E,
+    0 1px 0 #DABB9E,
+    0 -1px 0 #DABB9E,
+    2px 2px 0 #DABB9E,
+    -2px 2px 0 #DABB9E,
+    2px -2px 0 #DABB9E,
+    -2px -2px 0 #DABB9E,
+    2px 0 0 #DABB9E,
+    -2px 0 0 #DABB9E,
+    0 2px 0 #DABB9E,
+    0 -2px 0 #DABB9E;
+}
+
+.buy-coffee-txt {
+    font-family: dancingScriptBold;
+}
