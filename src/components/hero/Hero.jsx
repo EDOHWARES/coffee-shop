@@ -7,9 +7,9 @@ import bikeIcon from '../../assets/icons/cup-btnicon.png';
 
 const Hero = () => {
   return (
-    <section className='absolute w-full top-0 z-[-1] h-screen'>
-        <div className='pl-[34px] text-[#DABB9E] flex justify-between w-full'>
-            <div className=' flex flex-col gap-7 w-1/2 pt-[10rem]'>
+    <section className='static w-full top-0 z-[-1] h-screen'>
+        <div className='pl-[34px] text-[#DABB9E] flex justify-between w-full max-w-[1440px]'>
+            <div className=' flex flex-col gap-7 w-1/2'>
                 <h1 className='hero-hd-txt text-[112px] text-[#221518]'>Ectasy Coffee</h1>
                 <p className='text-[24px]'>
                     Today's good mood is sponsored by coffee, <br />
@@ -20,6 +20,8 @@ const Hero = () => {
                     <button className='py-[36px] px-[12px] bg-[#DABB9E] rounded-[49px] border border-[##DABB9E] w-[187px] h-[55px] flex items-center justify-center text-[#221518] hover:bg-[#221518] hover:text-[#DABB9E] duration-500'>Catalog</button>
                 </div>
             </div>
+
+            <div className='lightener'></div>
 
             <div className='absolute top-0 right-0 '>
                 <div className='absolute bg-[#7C573C] h-full w-[48%] z-[-1] right-0'></div>

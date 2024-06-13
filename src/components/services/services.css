@@ -1,0 +1,8 @@
+@font-face {
+    font-family: dancingScriptBold;
+    src: url(../../assets/fonts/DancingScript-Bold.ttf);
+}
+
+.services-hd {
+    font-family: dancingScriptBold;
+}

@@ -29,3 +29,15 @@
 .buy-coffee-txt {
     font-family: dancingScriptBold;
 }
+
+.lightener {
+    position: absolute;
+    z-index: -1;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #745F58;
+    top: 0;
+    left: 0;
+    filter: blur(20rem);
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: dancingScriptBold;
+    src: url(../../assets/fonts/DancingScript-Bold.ttf);
+}
+
+.about-container {
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7),
+    0 10px 15px rgba(0, 0, 0, 0.5),
+    inset 0 1px 2px rgba(255, 255, 255, 0.2); */
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8), /* Strong shadow for depth */
+                0 12px 24px rgba(0, 0, 0, 0.6), /* Larger, more diffuse shadow */
+                inset 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.our-story {
+    font-family: dancingScriptBold;
+    text-shadow: 2px 2px 4px #000000;
+}
