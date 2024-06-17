@@ -7,9 +7,9 @@ import bikeIcon from '../../assets/icons/cup-btnicon.png';
 
 const Hero = () => {
   return (
-    <section className='static w-full top-0 z-[-1] h-screen'>
+    <section className='static w-full top-0 z-[-1] h-screen mb-10'>
         <div className='pl-[34px] text-[#DABB9E] flex justify-between w-full max-w-[1440px]'>
-            <div className=' flex flex-col gap-7 w-1/2'>
+            <div className=' flex flex-col gap-7 w-1/2 pt-8'>
                 <h1 className='hero-hd-txt text-[112px] text-[#221518]'>Ectasy Coffee</h1>
                 <p className='text-[24px]'>
                     Today's good mood is sponsored by coffee, <br />

@@ -5,7 +5,7 @@ import './about.css';
 
 export const About = () => {
   return (
-    <section className='p-[34px]'>
+    <section className='p-[34px] mb-[6rem]'>
         <div className='about-container max-w-[1440px] mx-auto bg-[#54372A] rounded-[4rem] relative h-[378px] py-10 pr-10 pl-0 flex items-center justify-end'>
 
             <img src={coffeeHead} alt="coffee face" className='absolute top-[-4.5rem] left-0' />
@@ -21,7 +21,7 @@ export const About = () => {
                 </p>
                 <span className='underline self-end cursor-pointer'>More</span>
             </div>
-            <h1 className='our-story absolute top-[-3.3rem] right-[6rem] text-[54px] text-[#F8E4BE]'>Our Story</h1>
+            <h1 className='dancing-script absolute top-[-3.3rem] right-[6rem] text-[54px] text-[#F8E4BE]'>Our Story</h1>
         </div>
     </section>
   )

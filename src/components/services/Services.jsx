@@ -12,8 +12,8 @@ import pastry from '../../assets/icons/pastry.png';
 
 const Services = () => {
   return (
-    <section className='w-full'>
-        <div className='p-[34px] text-[#F8E4BE] max-w-[1440px]'>
+    <section className='w-full mb-[8rem]'>
+        <div className='p-[34px] text-[#F8E4BE] max-w-[1440px] mb-10'>
             <h1 className='services-hd text-[64px] text-center mb-10'>Services</h1>
             <div className='flex items-center justify-between'>
                 <ServiceCard 

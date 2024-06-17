@@ -6,6 +6,8 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import { About } from './components/about/About';
 import Services from './components/services/Services';
+import Offers from './components/offers/Offers';
+import ReserveTable from './components/reserveTable/ReserveTable';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Hero />
         <About />
         <Services />
+        <Offers />
+        <ReserveTable />
       </section>
     </>
   )
