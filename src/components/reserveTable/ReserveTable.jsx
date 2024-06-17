@@ -11,7 +11,7 @@ import './reserveTable.css';
 
 const ReserveTable = () => {
   return (
-    <section className='bg-[#54372A] relative w-full mb-[8rem]'>
+    <section className='bg-[#54372A] relative w-full mb-[8rem] max-w-[1440px]'>
         <h1 className='dancing-script-reserve absolute top-[-1rem] text-[54px] text-[#F8E4BE]'>Reserve a Table</h1>
         <div className='flex justify-between items-center p-[34px]'>
             <div>

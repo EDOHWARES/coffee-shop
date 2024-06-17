@@ -8,6 +8,7 @@ import { About } from './components/about/About';
 import Services from './components/services/Services';
 import Offers from './components/offers/Offers';
 import ReserveTable from './components/reserveTable/ReserveTable';
+import Recommended from './components/recommended/Recommended';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Services />
         <Offers />
         <ReserveTable />
+        <Recommended />
       </section>
     </>
   )
