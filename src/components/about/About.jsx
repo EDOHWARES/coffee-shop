@@ -1,11 +1,13 @@
 import React from 'react';
 import coffeeHead from '../../assets/images/coffee-head.png';
+import bean1 from '../../assets/images/bean1.png';
 
 import './about.css';
 
 export const About = () => {
   return (
-    <section className='p-[34px] mb-[6rem]'>
+    <section className='p-[34px] mb-[6rem] relative'>
+      <img src={bean1} alt="bean1" className='bean absolute bottom-[-6rem] left-0' />
         <div className='about-container max-w-[1440px] mx-auto bg-[#54372A] rounded-[4rem] relative h-[378px] py-10 pr-10 pl-0 flex items-center justify-end'>
 
             <img src={coffeeHead} alt="coffee face" className='absolute top-[-4.5rem] left-0' />
