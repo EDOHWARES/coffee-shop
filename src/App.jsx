@@ -10,6 +10,7 @@ import Offers from './components/offers/Offers';
 import ReserveTable from './components/reserveTable/ReserveTable';
 import Recommended from './components/recommended/Recommended';
 import PopMenu from './components/menu/PopMenu';
+import Blog from './components/blog/Blog';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <ReserveTable />
         <Recommended />
         <PopMenu />
+        <Blog />
       </section>
     </>
   )
