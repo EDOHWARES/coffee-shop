@@ -7,8 +7,8 @@ import cart from '../../assets/icons/cart.png';
 
 const Header = () => {
   return (
-    <section className='h-[86px] px-[34px] z-50'>
-        <div className='flex items-center justify-between max-w-[1440px] h-full'>
+    <section className='h-[86px] px-[34px] z-50 max-w-[1440px] mx-auto'>
+        <div className='flex items-center justify-between max-w-[1440px] h-full mx-auto'>
             <div>
                 <img src={logo} alt="logo" />
             </div>

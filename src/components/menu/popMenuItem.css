@@ -1,0 +1,11 @@
+/* HTML: <div class="rhombus"></div> */
+.rhombus {
+    height: 12px;
+    width: 12px;
+    aspect-ratio: 1;
+    clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+}
+
+.gradient {
+    background: linear-gradient(to right, #644121, #F8E4BE, #FFFFFF, #F8E4BE, #664224);
+}

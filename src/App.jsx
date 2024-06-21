@@ -9,13 +9,14 @@ import Services from './components/services/Services';
 import Offers from './components/offers/Offers';
 import ReserveTable from './components/reserveTable/ReserveTable';
 import Recommended from './components/recommended/Recommended';
+import PopMenu from './components/menu/PopMenu';
 
 function App() {
 
 
   return (
     <>
-      <section>
+      <section className='relative max-w-[1440px] mx-auto'>
         <Header />
         <Hero />
         <About />
@@ -23,6 +24,7 @@ function App() {
         <Offers />
         <ReserveTable />
         <Recommended />
+        <PopMenu />
       </section>
     </>
   )
