@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css';
 
 // components
@@ -13,12 +13,36 @@ import PopMenu from './components/menu/PopMenu';
 import Blog from './components/blog/Blog';
 import CustomerReviews from './components/customerReview/CustomerReviews';
 
+// preloader
+import GridLoader from "react-spinners/GridLoader";
+
+
 function App() {
+
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
 
 
   return (
     <>
-      <section className='relative max-w-[1440px] mx-auto'>
+      {loading ?
+        <div className='w-screen h-screen flex items-center justify-center bg-white'>
+            <GridLoader
+            color={'#54372A'}
+            loading={loading}
+            size={30}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            />
+        </div>
+      :
+       <section className='relative max-w-[1440px] mx-auto'>
         <Header />
         <Hero />
         <About />
@@ -30,6 +54,7 @@ function App() {
         <Blog />
         <CustomerReviews />
       </section>
+      }
     </>
   )
 }
