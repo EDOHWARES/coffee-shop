@@ -11,6 +11,7 @@ import ReserveTable from './components/reserveTable/ReserveTable';
 import Recommended from './components/recommended/Recommended';
 import PopMenu from './components/menu/PopMenu';
 import Blog from './components/blog/Blog';
+import CustomerReviews from './components/customerReview/CustomerReviews';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Recommended />
         <PopMenu />
         <Blog />
+        <CustomerReviews />
       </section>
     </>
   )
