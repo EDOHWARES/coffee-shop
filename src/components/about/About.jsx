@@ -15,7 +15,7 @@ export const About = () => {
             <div className='w-1/2 flex flex-col text-[18px] text-white gap-4'>
                 <p className='leading-[218%]'>
                     Ectasy is an Online Coffee Store That Offers the Widest Selection Of
-                    Specially Coffees And Teas From Around The World. From Medium- 
+                    Specially made Coffees And Teas From Around The World. From Medium- 
                     Dark Roast Single Origin To Flavored Espresso Beans, We Offer A Variety 
                     Of Ethically Sourced Products To Tantalize Any Customer's 
                     Palate. For Those Looking For Unique Brewing Equipment, Ectasy Also Carries 

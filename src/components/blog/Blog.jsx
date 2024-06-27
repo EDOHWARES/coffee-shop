@@ -12,6 +12,9 @@ import hundredPercent from '../../assets/icons/100.png';
 
 import coffeeTypes from '../../assets/icons/coffee-types.png';
 
+import coffee_bean9 from '../../assets/images/bean9.png';
+import coffee_bean10 from '../../assets/images/bean10.png';
+
 const Input = ({text}) => {
     return (
         <div className='flex items-center gap-[.5rem]'>
@@ -30,6 +33,10 @@ const Percent = ({percent}) => {
 const Blog = () => {
   return (
     <section style={{backgroundImage: `url(${blogBg})`}} className='bg-[#54372A] relative w-full mb-[8rem] max-w-[1440px] mx-auto bg-cover bg-no-repeat bg-center'>
+
+            <img src={coffee_bean9} alt="bean9" className='absolute bottom-[-8rem] left-[9rem] z-50' />
+            <img src={coffee_bean10} alt="bean10" className='absolute bottom-[-22rem] left-0 z-50' />
+
         <h1 className='dancing-script-reserve absolute top-[-1rem] text-[54px] text-[#F8E4BE]'>Our Blog</h1>
         <div className='flex justify-between gap-[2rem] items-center p-[34px] mx-auto'>
             <BlogCard 

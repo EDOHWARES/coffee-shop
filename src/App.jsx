@@ -12,6 +12,8 @@ import Recommended from './components/recommended/Recommended';
 import PopMenu from './components/menu/PopMenu';
 import Blog from './components/blog/Blog';
 import CustomerReviews from './components/customerReview/CustomerReviews';
+import NewsLetter from './components/newLetter/NewsLetter';
+import Footer from './components/footer/Footer';
 
 // preloader
 import GridLoader from "react-spinners/GridLoader";
@@ -53,6 +55,8 @@ function App() {
         <PopMenu />
         <Blog />
         <CustomerReviews />
+        <NewsLetter />
+        <Footer />
       </section>
       }
     </>
