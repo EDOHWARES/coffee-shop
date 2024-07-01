@@ -44,7 +44,7 @@ function App() {
             />
         </div>
       :
-       <section className='relative max-w-[1440px] mx-auto'>
+       <section className='relative max-w-[1440px] mx-auto border-x'>
         <Header />
         <Hero />
         <About />

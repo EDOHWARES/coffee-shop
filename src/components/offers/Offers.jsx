@@ -6,7 +6,7 @@ import './offers.css';
 
 const Offers = () => {
   return (
-    <section className='p-[34px] mb-[8rem] relative'>
+    <section id='offers' className='p-[34px] mb-[8rem] relative'>
         <img src={bean3} alt="bean3" className='absolute bottom-[-12rem] left-0' />
         <div className='shadow relative flex items-center mx-auto justify-between max-w-[1440px] rounded-[4rem] h-[378px] bg-[#54372A] text-[#F8E4BE] py-10 pl-10 pr-0'>
             <div className='w-2/3 flex flex-col justify-around h-full items-start '>

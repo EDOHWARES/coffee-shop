@@ -13,7 +13,7 @@ import bean2 from '../../assets/images/bean2.png';
 
 const Services = () => {
   return (
-    <section className='w-full mb-[8rem] relative'>
+    <section id='services' className='w-full mb-[8rem] relative'>
         <img src={bean2} alt="bean2" className='absolute bottom-[-10rem] right-0' />
         <div className='p-[34px] text-[#F8E4BE] max-w-[1440px] mb-10 mx-auto'>
             <h1 className='services-hd text-[64px] text-center mb-10'>Services</h1>

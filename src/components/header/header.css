@@ -1,0 +1,13 @@
+.bg {
+    background-color: #7C573C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+a {
+    transition: ease-in-out .9s;
+}
+
+a.active,
+a:hover {
+    background-color: #DFC39D80;
+}

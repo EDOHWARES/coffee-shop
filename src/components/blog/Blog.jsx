@@ -32,7 +32,7 @@ const Percent = ({percent}) => {
 
 const Blog = () => {
   return (
-    <section style={{backgroundImage: `url(${blogBg})`}} className='bg-[#54372A] relative w-full mb-[8rem] max-w-[1440px] mx-auto bg-cover bg-no-repeat bg-center'>
+    <section id='blog' style={{backgroundImage: `url(${blogBg})`}} className='bg-[#54372A] relative w-full mb-[8rem] max-w-[1440px] mx-auto bg-cover bg-no-repeat bg-center'>
 
             <img src={coffee_bean9} alt="bean9" className='absolute bottom-[-8rem] left-[9rem] z-50' />
             <img src={coffee_bean10} alt="bean10" className='absolute bottom-[-22rem] left-0 z-50' />

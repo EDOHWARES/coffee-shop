@@ -6,7 +6,7 @@ import './about.css';
 
 export const About = () => {
   return (
-    <section className='p-[34px] mb-[6rem] relative'>
+    <section id='about' className='p-[34px] mb-[6rem] relative'>
       <img src={bean1} alt="bean1" className='bean absolute bottom-[-6rem] left-0' />
         <div className='about-container max-w-[1440px] mx-auto bg-[#54372A] rounded-[4rem] relative h-[378px] py-10 pr-10 pl-0 flex items-center justify-end'>
 
